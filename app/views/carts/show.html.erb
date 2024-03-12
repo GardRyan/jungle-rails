@@ -7,6 +7,7 @@
   <div class="panel panel-default items">
     <table class="table table-bordered">
       <thead>
+      <% if enhanced_cart.present? %>
         <tr>
           <th colspan="2">Product</th>
           <th>Unit Price</th>
@@ -30,6 +31,11 @@
         </tr>
       </tfoot>
     </table>
+    <% else %>
+        <p>
+          <span colspan="5">Nothing in the cart! Keep shopping!</span>
+        </p>
+      <% end %>
   </div>
 
   <div class="row">
