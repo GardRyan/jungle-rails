@@ -1,5 +1,9 @@
 class Admin::DashboardController < ApplicationController
   def show
+    # Retrieve counts of products and categories from the database
+    @product_count = Product.count
+    @category_count = Category.count
+
     # Retrieve expected username and password from environment variables
     expected_username = ENV['EXPECTED_USERNAME']
     expected_password = ENV['EXPECTED_PASSWORD']
