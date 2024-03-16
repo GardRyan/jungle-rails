@@ -4,6 +4,8 @@ Rails.application.routes.draw do
 
   resources :products, only: [:index, :show]
   resources :categories, only: [:show]
+  resources :sessions, only: [:new, :create, :destroy]
+  resources :users, only: [:new, :create]
 
   resource :cart, only: [:show] do
     post   :add_item
@@ -19,7 +21,9 @@ Rails.application.routes.draw do
   end
 
   get '/about', to: 'about#show'
-
+  get '/login', to: 'sessions#new'
+  post '/login', to: 'sessions#create'
+  delete '/logout', to: 'sessions#destroy'
 
 
 
