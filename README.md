@@ -29,3 +29,17 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+
+## Screenshots
+
+![Homepage](https://github.com/GardRyan/jungle-rails/blob/master/docs/jungle-rails-homepage.jpg)
+![Admin: Categories](https://github.com/GardRyan/jungle-rails/blob/master/docs/jungle-rails-admin-categories.jpg)
+![Admin: Products](https://github.com/GardRyan/jungle-rails/blob/master/docs/jungle-rails-admin-products.jpg)
+![Cart](https://github.com/GardRyan/jungle-rails/blob/master/docs/jungle-rails-cart.jpg)
+![Admin: Dashboard](https://github.com/GardRyan/jungle-rails/blob/master/docs/jungle-rails-dashboard.jpg)
+![Product Page](https://github.com/GardRyan/jungle-rails/blob/master/docs/jungle-rails-product%20page.jpg)
+![Register](https://github.com/GardRyan/jungle-rails/blob/master/docs/jungle-rails-register.jpg)
+![Sold Out](https://github.com/GardRyan/jungle-rails/blob/master/docs/jungle-rails-soldout.jpg)
+![Login](https://github.com/GardRyan/jungle-rails/blob/master/docs/junlge-rails-login.jpg)
+![Admin Dropdown](https://github.com/GardRyan/jungle-rails/blob/master/docs/jungle-rails-admin.jpg)
+
