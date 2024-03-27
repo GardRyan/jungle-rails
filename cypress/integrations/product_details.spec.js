@@ -1,15 +1,14 @@
-describe('example to-do app', () => {
+describe("product_details", () => {
   beforeEach(() => {
-    cy.visit('/')
-  })
+    cy.visit("/");
+  });
 
-  it('displays the home page', () => {
+  it("displays the home page", () => {
     cy.get(".products article").should("be.visible");
-  })
+  });
 
   it("Navigates from the home page to a product", async () => {
-    cy.contains("Scented Blade").click()
-    cy.get('.btn').should("be.visible")
-  })
-  
-})
+    cy.contains("Scented Blade").click();
+    cy.get(".btn").should("be.visible");
+  });
+});
